@@ -9,4 +9,4 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        image: snykgoof/node
+        image: snykgoof/node:10.4.0-slim
